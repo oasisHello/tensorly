@@ -48,7 +48,7 @@
         <mxCell id="m5d_hZIyM7z54G5IkSNM-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5d_hZIyM7z54G5IkSNM-3" target="m5d_hZIyM7z54G5IkSNM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m5d_hZIyM7z54G5IkSNM-3" value="Authentication&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="m5d_hZIyM7z54G5IkSNM-3" value="Authentication&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;align=left;" vertex="1" parent="1">
           <mxGeometry x="640" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-4" value="1.login failed&lt;div&gt;2.update log&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;align=center;fontSize=12;" vertex="1" parent="1">
