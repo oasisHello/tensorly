@@ -64,7 +64,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-7" value="update user info" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="880" y="130" width="110" height="60" as="geometry" />
+          <mxGeometry x="890" y="130" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5d_hZIyM7z54G5IkSNM-8" target="m5d_hZIyM7z54G5IkSNM-9">
           <mxGeometry relative="1" as="geometry" />
