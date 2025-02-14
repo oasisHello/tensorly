@@ -83,7 +83,7 @@
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1260" y="680" as="sourcePoint" />
+            <mxPoint x="1260" y="1030" as="sourcePoint" />
             <mxPoint x="1260" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -97,7 +97,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-25" value="request" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="240" y="501" width="100" height="60" as="geometry" />
+          <mxGeometry x="220" y="501" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m5d_hZIyM7z54G5IkSNM-26" target="m5d_hZIyM7z54G5IkSNM-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -198,17 +198,95 @@
         <mxCell id="m5d_hZIyM7z54G5IkSNM-49" value="return data&lt;br&gt;(role,permission)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1290" y="501" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m5d_hZIyM7z54G5IkSNM-56" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Routes&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="m5d_hZIyM7z54G5IkSNM-56" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Routes(coarse-grained permission)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="760" width="390" height="69" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-57" value="root" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="40" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="-80" y="501" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-58" value="main" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m5d_hZIyM7z54G5IkSNM-59" value="main" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="160" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-1" target="CBuKBtikBDBGnHLjB644-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-1" value="loading layout&lt;br&gt;(by /router/index.js)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-47.5" y="710" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-2" target="CBuKBtikBDBGnHLjB644-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-2" value="loading sidebar&lt;br&gt;(by /layout/index.vue)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-57.5" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-3" target="CBuKBtikBDBGnHLjB644-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-3" value="loading the router&lt;br&gt;(/layout/components/Sidebar/index.vue)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="920" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-4" value="show page by path into &amp;lt;app-main/&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1030" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-11" target="CBuKBtikBDBGnHLjB644-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-11" value="request" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="230" y="910" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-12" target="CBuKBtikBDBGnHLjB644-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-12" value="retrieve user info" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-13" target="CBuKBtikBDBGnHLjB644-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-13" value="retrieve menu permission" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="550" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-16" target="CBuKBtikBDBGnHLjB644-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-16" target="CBuKBtikBDBGnHLjB644-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-16" value="admin?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="900" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-18" target="CBuKBtikBDBGnHLjB644-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-18" value="all menu" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="705" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-19" target="CBuKBtikBDBGnHLjB644-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-19" value="menu by user id" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-22" target="CBuKBtikBDBGnHLjB644-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-22" value="menu tree" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="920" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CBuKBtikBDBGnHLjB644-25" target="CBuKBtikBDBGnHLjB644-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-25" value="menu tree for client" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-27" value="response&lt;br&gt;(role,permission)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBuKBtikBDBGnHLjB644-29" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Routes(fine-grained permission)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="390" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
