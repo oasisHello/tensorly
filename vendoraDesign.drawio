@@ -331,8 +331,33 @@
         <mxCell id="CBuKBtikBDBGnHLjB644-39" value="No permission" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1120" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CBuKBtikBDBGnHLjB644-43" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1400" width="30" height="30" as="geometry" />
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lqz-1NNCMDTlAzUpcf73-1" target="lqz-1NNCMDTlAzUpcf73-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-1" value="request for login" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lqz-1NNCMDTlAzUpcf73-2" target="lqz-1NNCMDTlAzUpcf73-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-2" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-3" value="return token" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lqz-1NNCMDTlAzUpcf73-4" target="lqz-1NNCMDTlAzUpcf73-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-4" value="logging" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-5" value="logging" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
