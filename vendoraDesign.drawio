@@ -343,44 +343,41 @@
         <mxCell id="lqz-1NNCMDTlAzUpcf73-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lqz-1NNCMDTlAzUpcf73-2" target="lqz-1NNCMDTlAzUpcf73-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-2" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1520" width="120" height="60" as="geometry" />
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-2" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lqz-1NNCMDTlAzUpcf73-3" value="return token" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="710" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lqz-1NNCMDTlAzUpcf73-4" target="lqz-1NNCMDTlAzUpcf73-5" edge="1">
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lqz-1NNCMDTlAzUpcf73-4" target="lqz-1NNCMDTlAzUpcf73-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="530" y="1790" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="530" y="1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-4" value="logging" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1650" width="120" height="60" as="geometry" />
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-4" value="logging" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lqz-1NNCMDTlAzUpcf73-5" target="lqz-1NNCMDTlAzUpcf73-9" edge="1">
+        <mxCell id="b4560PDvRkyTxvqMkidR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lqz-1NNCMDTlAzUpcf73-5" target="b4560PDvRkyTxvqMkidR-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-5" value="async thread factory,create task for logging" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1760" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lqz-1NNCMDTlAzUpcf73-9" target="lqz-1NNCMDTlAzUpcf73-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="970" y="1700" />
-              <mxPoint x="970" y="1740" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lqz-1NNCMDTlAzUpcf73-9" value="async task manager&lt;div&gt;(thread pool will execute the task)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1670" width="200" height="60" as="geometry" />
+        <mxCell id="lqz-1NNCMDTlAzUpcf73-5" value="create login record" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1720" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lqz-1NNCMDTlAzUpcf73-11" value="IOC container" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="1710" width="200" height="60" as="geometry" />
+          <mxGeometry x="1095" y="1710" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yZzk37CZ2JHUc1ldqqFZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m5d_hZIyM7z54G5IkSNM-23" target="m5d_hZIyM7z54G5IkSNM-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4560PDvRkyTxvqMkidR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b4560PDvRkyTxvqMkidR-5" target="b4560PDvRkyTxvqMkidR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4560PDvRkyTxvqMkidR-5" value="create login record" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1820" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4560PDvRkyTxvqMkidR-7" value="async task manager,create task for logging" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1920" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
