@@ -1053,7 +1053,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Kgk8EGZcE0x8GyxlLl9C-1" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;Job Detail&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="200" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="210" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kgk8EGZcE0x8GyxlLl9C-42" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;scheduler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="160" height="40" as="geometry" />
@@ -1062,13 +1062,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Kgk8EGZcE0x8GyxlLl9C-44" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;trigger&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="160" height="40" as="geometry" />
+          <mxGeometry x="440" y="210" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kgk8EGZcE0x8GyxlLl9C-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgk8EGZcE0x8GyxlLl9C-46" target="Kgk8EGZcE0x8GyxlLl9C-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Kgk8EGZcE0x8GyxlLl9C-46" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;simple trigger&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="160" width="160" height="40" as="geometry" />
+          <mxGeometry x="640" y="180" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kgk8EGZcE0x8GyxlLl9C-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kgk8EGZcE0x8GyxlLl9C-47" target="Kgk8EGZcE0x8GyxlLl9C-44">
           <mxGeometry relative="1" as="geometry" />
