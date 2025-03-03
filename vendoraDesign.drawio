@@ -784,10 +784,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MYUK_zYG1E5KE3mAFdE6-2" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;File Reading&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="50" width="220" height="30" as="geometry" />
+          <mxGeometry x="20" y="20" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MYUK_zYG1E5KE3mAFdE6-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="120" width="380" height="300" as="geometry" />
+          <mxGeometry x="40" y="120" width="380" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MYUK_zYG1E5KE3mAFdE6-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MYUK_zYG1E5KE3mAFdE6-5" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;App&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MYUK_zYG1E5KE3mAFdE6-6" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;Console&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
